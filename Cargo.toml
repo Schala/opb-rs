@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "opb-rs"
+description = ""
+version = "2021.11.15"
+keywords = ["parsing", "parser"]
+categories = ["parsing"]
+license = "MIT"
+
+[lib]
+name = "opb"
+path = "src/lib.rs"
+
+[dependencies]
+bytemuck = "1.7.2"
+nom = { version = "7.1.0", features = ["alloc"] }
